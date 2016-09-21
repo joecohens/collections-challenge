@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c1463dfea4e1a40c1e78fc8a4a001fd4",
+    "content-hash": "4ed79597ec2dd46f59689284c80c8990",
+    "packages": [
+        {
+            "name": "tightenco/collect",
+            "version": "v5.3.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tightenco/collect.git",
+                "reference": "321ff9a1de1466aa8546928c223cdee5b7f762cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tightenco/collect/zipball/321ff9a1de1466aa8546928c223cdee5b7f762cf",
+                "reference": "321ff9a1de1466aa8546928c223cdee5b7f762cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.4",
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Illuminate/Support/helpers.php"
+                ],
+                "psr-4": {
+                    "Illuminate\\": "src/Illuminate"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "Collect - Illuminate Collections as a separate package.",
+            "keywords": [
+                "collection",
+                "laravel"
+            ],
+            "time": "2016-09-12 17:54:06"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

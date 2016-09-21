@@ -1,0 +1,16 @@
+{
+    "name": "joecohens/collections-example",
+    "description": "Collections example",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Cohen",
+            "email": "joseph.cohen@dinkbit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "tightenco/collect": "^5.3"
+    }
+}
